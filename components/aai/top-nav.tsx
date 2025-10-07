@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation"
 export default function TopNav() {
   const pathname = usePathname()
   const items = [
+    { label: "Lost & Found", href: "/aai/lost_and_found" },
     { label: "Airports", href: "/aai/airports" },
     { label: "Business Info", href: "#" },
     { label: "Services", href: "#" },
